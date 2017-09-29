@@ -1,10 +1,8 @@
-# Elm Develop Environment
-
-[![CircleCI](https://circleci.com/gh/ababup1192/elm-dev-env.svg?style=svg)](https://circleci.com/gh/ababup1192/elm-dev-env)
+# Elm SPA Sample
 
 ## Require
 
-- [Elm(elm-make)](https://guide.elm-lang.org/install.html)
+- Node v8.6.0
 
 ## Install
 
@@ -18,6 +16,15 @@ $ yarn
 $ yarn start
 $ open http://localhost:8000/
 ```
+
+## Launch Release server mode (enable routing)
+
+```shell
+$ yarn spa-start
+$ open http://localhost:3000/
+```
+
+
 
 ## Test
 
